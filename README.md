@@ -5,6 +5,7 @@
 4. run the build.bat, it will create "build\Debug" folder with the exe for the server
 5. Sample Unity script which connects to the server:
 
+```csharp
 using System;
 using System.Net.Sockets;
 using System.Text;
