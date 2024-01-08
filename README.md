@@ -3,7 +3,9 @@
 2. Download and install Boost https://www.boost.org/users/history/ - v1.84.0 is used in this example
 3. Prepare CMakeList.txt - project name "SimpleExample" , targeting simple_example.cpp to be built
 4. run the build.bat, it will create "build\Debug" folder with the exe for the server
-5. Sample Unity script which connects to the server:
+5. PingPongData provides example server listening on localhost:1234, resending back data it receives and also a Unity C# script working as a Client
+   
+6. Sample Unity script which connects to the server:
 
 ```csharp
 using System;
